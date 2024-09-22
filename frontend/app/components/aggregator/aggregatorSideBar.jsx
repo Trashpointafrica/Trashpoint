@@ -8,6 +8,7 @@ import { MdNotificationsNone } from "react-icons/md";
 import { MdOutlineLogout } from "react-icons/md";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image;
 import { sidebarSquare, tplogo } from "@/app/assets/images";
 
 const AggregatorSideBar = () => {
