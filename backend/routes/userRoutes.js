@@ -19,8 +19,8 @@ router.get("/", getAllUsers);
 router.post("/", createNewUser);
 router.get("/test", testDBConnect);
 
-router.post("/register", registerUser);
 router.post("/login", loginUser);
+router.post("/register", registerUser);
 router.post("/forgot-password", forgotPassword);
 router.get("/confirm-email/:userId", confirmEmail);
 
